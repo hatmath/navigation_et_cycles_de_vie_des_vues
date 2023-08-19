@@ -27,7 +27,7 @@
         <!--Starting-->
         <scene sceneID="DQb-5H-fYh">
             <objects>
-                <viewController title="Starting" id="Hj9-IB-A0J" sceneMemberID="viewController">
+                <viewController title="Starting" id="Hj9-IB-A0J" customClass="Menu_ViewController" customModule="navigation_et_cycles_de_vie_des_vues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Oz-Dw-aLc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,7 +88,7 @@
         <!--Form Controller-->
         <scene sceneID="6E9-8X-4jz">
             <objects>
-                <viewController title="Form Controller" id="h6d-mU-yD7" sceneMemberID="viewController">
+                <viewController title="Form Controller" id="h6d-mU-yD7" customClass="FormViewController" customModule="navigation_et_cycles_de_vie_des_vues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dKa-Tz-1xx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="540" y="-680"/>
         </scene>
-        <!--View Controller-->
+        <!--Default View Controller-->
         <scene sceneID="N6F-30-PaV">
             <objects>
-                <viewController id="a6Y-NM-Bta" sceneMemberID="viewController">
+                <viewController id="a6Y-NM-Bta" customClass="DefaultViewController" customModule="navigation_et_cycles_de_vie_des_vues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xAY-gq-1iM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,10 +151,10 @@
             </objects>
             <point key="canvasLocation" x="540" y="37"/>
         </scene>
-        <!--View Controller-->
+        <!--Default View Controller-->
         <scene sceneID="qOX-jz-K3s">
             <objects>
-                <viewController id="EIw-pA-IjE" sceneMemberID="viewController">
+                <viewController id="EIw-pA-IjE" customClass="DefaultViewController" customModule="navigation_et_cycles_de_vie_des_vues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KfF-lC-Zyr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
