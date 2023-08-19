@@ -7,17 +7,26 @@
 
 import UIKit
 
-class Menu_ViewController: UIViewController {
+class MenuViewController: UIViewController {
 
+    @IBOutlet weak var lblCounter: UILabel!
+    private var counter = 0
+    
+    @IBAction func unwindToMenu(unwindSegue: UIStoryboardSegue) {}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         print("Menu did load")
+        lblCounter.text = "Compteur vide"
+        //counter += 1
     }
 
     override func viewWillAppear(_ animated: Bool) {
         print ("Menu will appear")
+        lblCounter.text = "Compteur: \(counter)"
+        counter += 1
     }
     
     override func viewDidAppear(_ animated: Bool) {

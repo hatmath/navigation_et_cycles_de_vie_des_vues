@@ -26,6 +26,7 @@ class DefaultViewController: UIViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         print ("Default will disappear")
+        performSegue(withIdentifier: "unwindToMenu", sender: nil)
     }
     
     override func viewDidDisappear(_ animated: Bool) {

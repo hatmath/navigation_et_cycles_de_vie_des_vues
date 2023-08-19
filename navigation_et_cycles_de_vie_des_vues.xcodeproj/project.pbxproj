@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8718FEA02A91498A0073EEE2 /* Menu ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718FE9F2A9149890073EEE2 /* Menu ViewController.swift */; };
+		8718FEA02A91498A0073EEE2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718FE9F2A9149890073EEE2 /* MenuViewController.swift */; };
 		8718FEA22A914D300073EEE2 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718FEA12A914D300073EEE2 /* FormViewController.swift */; };
 		8718FEA42A914D420073EEE2 /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718FEA32A914D420073EEE2 /* DefaultViewController.swift */; };
 		87EE575E2A8EE9CF0077FC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EE575D2A8EE9CF0077FC36 /* AppDelegate.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8718FE9F2A9149890073EEE2 /* Menu ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Menu ViewController.swift"; sourceTree = "<group>"; };
+		8718FE9F2A9149890073EEE2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		8718FEA12A914D300073EEE2 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		8718FEA32A914D420073EEE2 /* DefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
 		87EE575A2A8EE9CF0077FC36 /* navigation_et_cycles_de_vie_des_vues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigation_et_cycles_de_vie_des_vues.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		8718FE9E2A9149350073EEE2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8718FE9F2A9149890073EEE2 /* Menu ViewController.swift */,
+				8718FE9F2A9149890073EEE2 /* MenuViewController.swift */,
 				8718FEA12A914D300073EEE2 /* FormViewController.swift */,
 				8718FEA32A914D420073EEE2 /* DefaultViewController.swift */,
 			);
@@ -156,7 +156,7 @@
 				87EE575E2A8EE9CF0077FC36 /* AppDelegate.swift in Sources */,
 				87EE57602A8EE9CF0077FC36 /* SceneDelegate.swift in Sources */,
 				8718FEA22A914D300073EEE2 /* FormViewController.swift in Sources */,
-				8718FEA02A91498A0073EEE2 /* Menu ViewController.swift in Sources */,
+				8718FEA02A91498A0073EEE2 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
