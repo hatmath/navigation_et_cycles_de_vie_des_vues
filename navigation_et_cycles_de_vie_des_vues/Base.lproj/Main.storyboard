@@ -117,7 +117,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="EIw-pA-IjE" kind="presentation" id="HrU-0u-T8Z"/>
+                                    <segue destination="EIw-pA-IjE" kind="show" id="HrU-0u-T8Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -159,11 +159,11 @@
             <objects>
                 <viewController id="EIw-pA-IjE" customClass="DefaultViewController" customModule="navigation_et_cycles_de_vie_des_vues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KfF-lC-Zyr">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGV-n1-nQz">
-                                <rect key="frame" x="71.666666666666686" y="728" width="250" height="74"/>
+                                <rect key="frame" x="71.666666666666686" y="704" width="250" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="dMc-dB-745"/>
                                 </constraints>
@@ -171,9 +171,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Fin">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="TD0-9B-VAw" kind="unwind" identifier="unwindToMenu" unwindAction="unwindToMenuWithUnwindSegue:" id="Wcc-ex-n74"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Kx-jy-uOI"/>
@@ -186,7 +183,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="k2T-aa-9QB"/>
                     <connections>
-                        <segue destination="TD0-9B-VAw" kind="unwind" identifier="unwindToMenu" unwindAction="unwindToMenuWithUnwindSegue:" id="Iaz-W0-Tgt"/>
+                        <segue destination="TD0-9B-VAw" kind="unwind" identifier="unwindToMenu" unwindAction="unwindToMenuWithUnwindSegue:" id="rul-tm-ckj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNt-fC-dcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
